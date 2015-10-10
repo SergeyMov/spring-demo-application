@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HelloWorldController {
 	@RequestMapping("/")
-	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return new ModelAndView("helloWorld");
+	public String handleRequest() {
+        return "helloWorld";
     }
 }
