@@ -11,6 +11,6 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloWorldController {
 	@RequestMapping("/")
 	public String handleRequest() {
-        return "helloWorld";
-    }
+		return "helloWorld";
+	}
 }
